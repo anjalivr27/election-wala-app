@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "264673977288",
+    "project_id": "election-1e482",
+    "storage_bucket": "election-1e482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264673977288:android:0928989c00de0474a956fd",
+        "android_client_info": {
+          "package_name": "com.example.database"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCljzcXgE-mLlx3roBS0SXZanglbBZvdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
