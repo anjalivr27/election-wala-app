@@ -10,7 +10,6 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.database.R;
 import com.example.database.models.PollingStation;
 import com.example.database.services.Firestore;
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements  Firestore.OnPoll
         setContentView(R.layout.activity_main);
 
         firestore = new Firestore();
-//            firestore.loadInitialData();
+//          firestore.loadInitialData(this);
 
         tableLayout = findViewById(R.id.tableLayout);
 

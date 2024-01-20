@@ -1,0 +1,38 @@
+[
+  {
+    "serialNumber": 1,
+    "voters": 1000,
+    "assembly": "Assembly1",
+    "building": "Building1",
+    "locality": "Locality1",
+    "pollingAreas": "Area1",
+    "sectorOfficers": [{"name": "Officer1"}, {"name": "Officer2"}],
+    "BLO": [{"name": "BLO1"}, {"name": "BLO2"}],
+    "talathi": [{"name": "Talathi1"}, {"name": "Talathi2"}],
+    "gramSevak": [{"name": "GramSevak1"}, {"name": "GramSevak2"}],
+    "policePatil": [{"name": "PolicePatil1"}, {"name": "PolicePatil2"}],
+    "kotwal": [{"name": "Kotwal1"}, {"name": "Kotwal2"}],
+    "principle": [{"name": "Principle1"}, {"name": "Principle2"}],
+    "policeStation": [{"name": "Station1"}, {"name": "Station2"}],
+    "rashoningShop": [{"name": "Shop1"}, {"name": "Shop2"}],
+    "MandalAdhikar": [{"name": "Adhikar1"}, {"name": "Adhikar2"}]
+  },
+  {
+    "serialNumber": 2,
+    "voters": 1200,
+    "assembly": "Assembly2",
+    "building": "Building2",
+    "locality": "Locality2",
+    "pollingAreas": "Area2",
+    "sectorOfficers": [{"name": "Officer3"}, {"name": "Officer4"}],
+    "BLO": [{"name": "BLO3"}, {"name": "BLO4"}],
+    "talathi": [{"name": "Talathi3"}, {"name": "Talathi4"}],
+    "gramSevak": [{"name": "GramSevak3"}, {"name": "GramSevak4"}],
+    "policePatil": [{"name": "PolicePatil3"}, {"name": "PolicePatil4"}],
+    "kotwal": [{"name": "Kotwal3"}, {"name": "Kotwal4"}],
+    "principle": [{"name": "Principle3"}, {"name": "Principle4"}],
+    "policeStation": [{"name": "Station3"}, {"name": "Station4"}],
+    "rashoningShop": [{"name": "Shop3"}, {"name": "Shop4"}],
+    "MandalAdhikar": [{"name": "Adhikar3"}, {"name": "Adhikar4"}]
+  }
+]

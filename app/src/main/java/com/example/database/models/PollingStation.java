@@ -1,16 +1,33 @@
 package com.example.database.models;
+import java.util.List;
 import java.util.Map;
 
 public class PollingStation {
     private int serialNumber, voters;
     private String docId , assembly, locality, building, pollingAreas ;
-    private Map<String, Object> sectorOfficers, BLO, talathi, gramSevak, policePatil, kotwal, principle , policeStation, rashoningShop, MandalAdhikari	;
+    private List<Map<String, Object>> sectorOfficers, BLO, talathi, gramSevak, policePatil, kotwal, principle , policeStation, rashoningShop, MandalAdhikar;
 
-    public PollingStation(String docId, int serialNumber,String assembly, String building, Map<String, Object> sectorOfficersy){
-        this.docId = docId != null ? docId : "";
+    public PollingStation( int serialNumber, int voters,  String assembly, String building, String locality, String pollingAreas,
+                          List<Map<String, Object>> sectorOfficers, List<Map<String, Object>> BLO, List<Map<String, Object>> talathi,
+                          List<Map<String, Object>> gramSevak, List<Map<String, Object>> policePatil, List<Map<String, Object>> kotwal,
+                          List<Map<String, Object>> principle, List<Map<String, Object>> policeStation, List<Map<String, Object>> rashoningShop,
+                          List<Map<String, Object>> MandalAdhikar) {
         this.serialNumber = serialNumber;
+        this.voters = voters;
         this.assembly = assembly;
         this.building = building;
+        this.locality = locality;
+        this.pollingAreas = pollingAreas;
+        this.sectorOfficers = sectorOfficers;
+        this.BLO = BLO;
+        this.talathi = talathi;
+        this.gramSevak = gramSevak;
+        this.policePatil = policePatil;
+        this.kotwal = kotwal;
+        this.principle = principle;
+        this.policeStation = policeStation;
+        this.rashoningShop = rashoningShop;
+        this.MandalAdhikar = MandalAdhikar;
     }
 
     public int getSerialNumber(){
